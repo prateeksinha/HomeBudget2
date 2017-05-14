@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@mipmap/homebudget_blur"
+    >
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="right"
+        android:background="@mipmap/info_i"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:id="@+id/tvLogIn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="LogIn"
+        android:textColor="#6600CC"
+        android:textSize="40sp"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/login_box"
+        />
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="SignUp"
+        android:textSize="40sp"
+        android:textColor="#6600CC"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_box"
+        />
+
+</LinearLayout>

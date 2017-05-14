@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Help"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        />
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#808080"
+        />
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="1. You have to SignUp first\n
+            a.You have to enter Your\n
+                Email address.\n
+            b.You have Enter your Name\n.
+            c.You have to confirm your\n
+                password.
+            \n2.  After that You can logIn
+            \n
+            "
+            android:textColor="#101010"
+            />
+    </ScrollView>
+</LinearLayout>

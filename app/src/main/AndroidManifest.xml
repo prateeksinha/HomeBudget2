@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.crackers.homebudget">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/home_budget"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.LogIN"/>
+        <activity android:name=".Activities.Information"/>
+        <activity android:name=".Activities.SignUp"/>
+        <activity android:name=".Activities.SignIn"/>
+        <activity android:name=".Activities.MainActivity"/>
+        <activity android:name=".Activities.AddIncomeActivity"/>
+        <activity android:name=".Activities.AddExpenses"/>
+        <activity android:name=".Activities.IncomeList"/>
+        <activity android:name=".Activities.ExpensesList"/>
+        <activity android:name=".Activities.UpdateIncome"/>
+        <activity android:name=".Activities.UpdateExpenditure"/>
+        <activity android:name=".Activities.HelpApp"/><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
